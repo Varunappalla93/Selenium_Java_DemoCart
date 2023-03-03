@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="21" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T10:48:31 GMT+05:30" name="DemoCart Regression Suite" finished-at="2023-03-02T10:49:03 GMT+05:30" duration-ms="32213">
+    <groups>
+    </groups>
+    <test started-at="2023-03-02T10:48:31 GMT+05:30" name="Login Page Test" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="11175">
+      <class name="com.qa.DemoCart.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.LoginPageTest@6fe1b4fb]" started-at="2023-03-02T10:48:31 GMT+05:30" name="setup" finished-at="2023-03-02T10:48:39 GMT+05:30" duration-ms="8275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPageTitleTest()[pri:1, instance:com.qa.DemoCart.tests.LoginPageTest@6fe1b4fb]" started-at="2023-03-02T10:48:39 GMT+05:30" name="LoginPageTitleTest" finished-at="2023-03-02T10:48:40 GMT+05:30" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method signature="forgotpwdlinktest()[pri:3, instance:com.qa.DemoCart.tests.LoginPageTest@6fe1b4fb]" started-at="2023-03-02T10:48:40 GMT+05:30" name="forgotpwdlinktest" finished-at="2023-03-02T10:48:40 GMT+05:30" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpwdlinktest -->
+        <test-method signature="dologintest()[pri:4, instance:com.qa.DemoCart.tests.LoginPageTest@6fe1b4fb]" started-at="2023-03-02T10:48:40 GMT+05:30" name="dologintest" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.DemoCart.tests.LoginPageTest@6fe1b4fb]" started-at="2023-03-02T10:48:42 GMT+05:30" name="teardown" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.DemoCart.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2023-03-02T10:48:31 GMT+05:30" name="Account Page Test" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="11428">
+      <class name="com.qa.DemoCart.tests.AccountsPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:31 GMT+05:30" name="setup" finished-at="2023-03-02T10:48:39 GMT+05:30" duration-ms="8480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accpagesetup()[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:39 GMT+05:30" name="accpagesetup" finished-at="2023-03-02T10:48:41 GMT+05:30" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accpagesetup -->
+        <test-method signature="AccountPageHeadertest()[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:41 GMT+05:30" name="AccountPageHeadertest" finished-at="2023-03-02T10:48:41 GMT+05:30" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountPageHeadertest -->
+        <test-method signature="AccountPageTitleTest()[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:41 GMT+05:30" name="AccountPageTitleTest" finished-at="2023-03-02T10:48:41 GMT+05:30" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountPageTitleTest -->
+        <test-method signature="AccountSectionsListTest()[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:41 GMT+05:30" name="AccountSectionsListTest" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountSectionsListTest -->
+        <test-method signature="AccountpageLogo()[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:42 GMT+05:30" name="AccountpageLogo" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountpageLogo -->
+        <test-method signature="isLogoutlinkTest()[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:42 GMT+05:30" name="isLogoutlinkTest" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLogoutlinkTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.DemoCart.tests.AccountsPageTest@66746f57]" started-at="2023-03-02T10:48:42 GMT+05:30" name="teardown" finished-at="2023-03-02T10:48:42 GMT+05:30" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.DemoCart.tests.AccountsPageTest -->
+    </test> <!-- Account Page Test -->
+    <test started-at="2023-03-02T10:48:43 GMT+05:30" name="Registration Page Test" finished-at="2023-03-02T10:49:01 GMT+05:30" duration-ms="18636">
+      <class name="com.qa.DemoCart.tests.RegistrationPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.RegistrationPageTest@41dd05a]" started-at="2023-03-02T10:48:43 GMT+05:30" name="setup" finished-at="2023-03-02T10:48:46 GMT+05:30" duration-ms="3294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupRegister()[pri:0, instance:com.qa.DemoCart.tests.RegistrationPageTest@41dd05a]" started-at="2023-03-02T10:48:46 GMT+05:30" name="setupRegister" finished-at="2023-03-02T10:48:47 GMT+05:30" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRegister -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.RegistrationPageTest@41dd05a]" started-at="2023-03-02T10:48:48 GMT+05:30" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2023-03-02T10:48:51 GMT+05:30" duration-ms="3290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[varun1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9848022334]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.RegistrationPageTest@41dd05a]" started-at="2023-03-02T10:48:51 GMT+05:30" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2023-03-02T10:48:54 GMT+05:30" duration-ms="2838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vineet1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9848022331]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.RegistrationPageTest@41dd05a]" started-at="2023-03-02T10:48:54 GMT+05:30" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2023-03-02T10:48:57 GMT+05:30" duration-ms="3586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9848022332]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.RegistrationPageTest@41dd05a]" started-at="2023-03-02T10:48:57 GMT+05:30" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2023-03-02T10:49:01 GMT+05:30" duration-ms="3592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manasa1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[g1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9848022333]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.DemoCart.tests.RegistrationPageTest@41dd05a]" started-at="2023-03-02T10:49:01 GMT+05:30" name="teardown" finished-at="2023-03-02T10:49:01 GMT+05:30" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.DemoCart.tests.RegistrationPageTest -->
+    </test> <!-- Registration Page Test -->
+    <test started-at="2023-03-02T10:48:31 GMT+05:30" name="Product Info Page Test" finished-at="2023-03-02T10:49:03 GMT+05:30" duration-ms="32213">
+      <class name="com.qa.DemoCart.tests.ProductInfoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:31 GMT+05:30" name="setup" finished-at="2023-03-02T10:48:40 GMT+05:30" duration-ms="8778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="productInfosetup()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:40 GMT+05:30" name="productInfosetup" finished-at="2023-03-02T10:48:41 GMT+05:30" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfosetup -->
+        <test-method signature="addtoCartTest()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:41 GMT+05:30" name="addtoCartTest" finished-at="2023-03-02T10:48:45 GMT+05:30" duration-ms="3202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCartTest -->
+        <test-method signature="getProdInfoTest()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:45 GMT+05:30" name="getProdInfoTest" finished-at="2023-03-02T10:48:46 GMT+05:30" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProdInfoTest -->
+        <test-method signature="getsuccesstexttest()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:46 GMT+05:30" name="getsuccesstexttest" finished-at="2023-03-02T10:48:54 GMT+05:30" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsuccesstexttest -->
+        <test-method signature="prodInfoHeaderTest()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:54 GMT+05:30" name="prodInfoHeaderTest" finished-at="2023-03-02T10:48:56 GMT+05:30" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodInfoHeaderTest -->
+        <test-method signature="prodInfoImagecountTest()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:56 GMT+05:30" name="prodInfoImagecountTest" finished-at="2023-03-02T10:48:58 GMT+05:30" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodInfoImagecountTest -->
+        <test-method signature="prodcountTest(java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:58 GMT+05:30" name="prodcountTest" data-provider="searchData" finished-at="2023-03-02T10:48:59 GMT+05:30" duration-ms="769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodcountTest -->
+        <test-method signature="prodcountTest(java.lang.String)[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:48:59 GMT+05:30" name="prodcountTest" data-provider="searchData" finished-at="2023-03-02T10:48:59 GMT+05:30" duration-ms="732" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.DemoCart.tests.ProductInfoTest.prodcountTest(ProductInfoTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodcountTest -->
+        <test-method signature="selectQuantityTest()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:49:00 GMT+05:30" name="selectQuantityTest" finished-at="2023-03-02T10:49:02 GMT+05:30" duration-ms="1972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectQuantityTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.DemoCart.tests.ProductInfoTest@6c45ee6e]" started-at="2023-03-02T10:49:02 GMT+05:30" name="teardown" finished-at="2023-03-02T10:49:03 GMT+05:30" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.DemoCart.tests.ProductInfoTest -->
+    </test> <!-- Product Info Page Test -->
+  </suite> <!-- DemoCart Regression Suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+Encapsulation is used at Page layer where by locators and page actions are given.
+Base Test extends Driver Factory class - uses Inheritance concept.
+
+
+Thread local concept to ensure parallel executions works as expected when more test cases are
+present.
+
+
+testng.xml browser name can be prioritized over config.properties browser by using prop.setProperty
+in setup() in BaseTest class.
+
+maven commands:
+mvn --version
+
+cd <projectpath>
+mvn clean install -Denv="qa"
+
+Jenkins:
+
+Jenkins is used to run Tests in CI/CD, common machine should be present for all automation engineers.
+
+to start jenkins :
+java --jar jenkins.war -httpPort=8080
+
+Tests are triggered by jenkins and run on dockerized grid.
+
+BO Pipeline and ngrok web hook proxy server can also be setup, also jobs can be scheduled at respective time.
+
+
+
